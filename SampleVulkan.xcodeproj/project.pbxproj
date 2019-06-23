@@ -37,6 +37,9 @@
 		EF74793222BEC70600A86589 /* libglfw.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.4.dylib; path = ../../../../usr/local/lib/libglfw.3.4.dylib; sourceTree = "<group>"; };
 		EF74793422BEC71B00A86589 /* libvulkan.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvulkan.1.dylib; path = ../Vulkan/vulkansdk/macOS/lib/libvulkan.1.dylib; sourceTree = "<group>"; };
 		EF74793622BEC72A00A86589 /* libvulkan.1.1.108.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvulkan.1.1.108.dylib; path = ../Vulkan/vulkansdk/macOS/lib/libvulkan.1.1.108.dylib; sourceTree = "<group>"; };
+		EF74793C22C0214900A86589 /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
+		EF74793D22C0214900A86589 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
+		EF74793F22C02A3500A86589 /* compile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 		EF74792922BEC3FC00A86589 /* SampleVulkan */ = {
 			isa = PBXGroup;
 			children = (
+				EF74793B22C0214900A86589 /* shaders */,
 				EF74792A22BEC3FC00A86589 /* main.cpp */,
 			);
 			path = SampleVulkan;
@@ -86,6 +90,16 @@
 				EF74793222BEC70600A86589 /* libglfw.3.4.dylib */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF74793B22C0214900A86589 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EF74793C22C0214900A86589 /* shader.vert */,
+				EF74793D22C0214900A86589 /* shader.frag */,
+				EF74793F22C02A3500A86589 /* compile.sh */,
+			);
+			path = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
