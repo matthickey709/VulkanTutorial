@@ -40,6 +40,8 @@
 		EF74793C22C0214900A86589 /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
 		EF74793D22C0214900A86589 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
 		EF74793F22C02A3500A86589 /* compile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile.sh; sourceTree = "<group>"; };
+		EF74794222C036F500A86589 /* frag.spv */ = {isa = PBXFileReference; lastKnownFileType = file; path = frag.spv; sourceTree = "<group>"; };
+		EF74794322C036F500A86589 /* vert.spv */ = {isa = PBXFileReference; lastKnownFileType = file; path = vert.spv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,8 @@
 		EF74793B22C0214900A86589 /* shaders */ = {
 			isa = PBXGroup;
 			children = (
+				EF74794222C036F500A86589 /* frag.spv */,
+				EF74794322C036F500A86589 /* vert.spv */,
 				EF74793C22C0214900A86589 /* shader.vert */,
 				EF74793D22C0214900A86589 /* shader.frag */,
 				EF74793F22C02A3500A86589 /* compile.sh */,
